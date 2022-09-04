@@ -10,7 +10,11 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
   background-color: var(--hero-title-color);
 }
 
@@ -24,6 +28,7 @@ body {
 
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 
 /* Main Page */
@@ -106,7 +111,6 @@ button {
 
 /* Features */
 
-.features,
 .work {
   background-color: var(--primary-background-color);
 }
@@ -131,14 +135,6 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-text-color);
-}
-
-.features-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
 }
 
 /* What do we do */
@@ -223,10 +219,6 @@ button {
 
 /* Portfolio Page */
 
-.main-portfolio {
-  background-color: var(--primary-background-color);
-}
-
 /* Header */
 /* repeats styles of main page header */
 
@@ -256,11 +248,12 @@ button {
 }
 
 .projects-text {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+}
+
+.projects .link{
+color: var(--primary-text-color);
 }
 
 /* Footer Portolio */
